@@ -1,2 +1,1 @@
-cd ./results
-rm *.png
+rm -R attachments
