@@ -32,7 +32,7 @@ int main()
 	std::thread th1(calculateSecondPart);
 	for (int i = 0; i < 2; i++)
 	{
-		std::this_thread::sleep_for(std::chrono::milliseconds(900));
+		std::this_thread::sleep_for(std::chrono::milliseconds(1500));
 		resultMat[i] = firstMat[i] * secondMat[i];
 		printf("First part calculation\t");
 		printArray();
